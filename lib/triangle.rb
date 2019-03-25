@@ -7,7 +7,7 @@ class Triangle
     @height = height
   end
 
-  def kind
+  def kind(length, width, height)
 
   end
 
