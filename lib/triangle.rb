@@ -8,7 +8,11 @@ class Triangle
   end
 
   def kind(length, width, height)
+    if length == width == height
+      :equilateral
+    elsif
 
+    end
   end
 
 class TriangleError < StandardError
