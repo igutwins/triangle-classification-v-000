@@ -7,7 +7,7 @@ class Triangle
     @height = height
   end
 
-  def kind(length, width, height)
+  def kind
     if length == width && width == height
       :equilateral
     elsif length == width ||  height == length || width == height
