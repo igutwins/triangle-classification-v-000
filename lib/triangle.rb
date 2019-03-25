@@ -16,7 +16,7 @@ class Triangle
       end
     elsif self.length == self.width && self.width == self.height
       :equilateral
-    elsif length == width ||  height == length || width == height
+    elsif self.length == self.width ||  self.height == self.length || self.width == self.height
       :isosceles
     else
       :scalene
