@@ -10,7 +10,7 @@ class Triangle
   def kind
     if self.length <= 0 ||  self.width <= 0 ||  self.height <= 0
         raise TriangleError
-    elsif self.length + self.width < self.height || self.height + self.width < self.length || self.length + self.height < self.width
+    elsif self.length + self.width <= self.height || self.height + self.width <= self.length || self.length + self.height <= self.width
       raise TriangleError
     elsif self.length == self.width && self.width == self.height
       :equilateral
