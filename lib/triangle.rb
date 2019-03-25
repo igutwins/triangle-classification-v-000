@@ -8,7 +8,7 @@ class Triangle
   end
 
   def kind
-    if length <= 0 ||  width <= 0 ||  height <= 0
+    if self.length <= 0 ||  self.width <= 0 ||  self.height <= 0
       begin
         raise TriangleError
       rescue TriangleError => error
