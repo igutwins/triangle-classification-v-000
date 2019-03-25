@@ -3,12 +3,12 @@ class Triangle
 
   def initialize(length, width, height)
     @length = length
-    @width = width 
-    @height = height 
+    @width = width
+    @height = height
   end
 
   def kind
 
   end
-   
+
 end
