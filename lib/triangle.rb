@@ -14,7 +14,7 @@ class Triangle
       rescue TriangleError => error
         puts error.message
       end
-    elsif length == width && width == height
+    elsif self.length == self.width && self.width == self.height
       :equilateral
     elsif length == width ||  height == length || width == height
       :isosceles
