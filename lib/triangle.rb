@@ -1,3 +1,5 @@
 class Triangle
-  # write code here
+  attr_accessor :length, :width, :height
+  def initialize(length, width, height)
+  end 
 end
