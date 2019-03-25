@@ -8,6 +8,12 @@ class Triangle
   end
 
   def kind
+    if length <= 0 ||  length <= 0 ||  length <= 0
+      begin 
+        raise TriangleError
+      rescue TriangleError => error 
+        puts error.message
+      end 
     if length == width && width == height
       :equilateral
     elsif length == width ||  height == length || width == height
