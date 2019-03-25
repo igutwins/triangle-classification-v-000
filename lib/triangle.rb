@@ -14,7 +14,6 @@ class Triangle
       rescue TriangleError => error
         puts error.message
       end
-
     if length == width && width == height
       :equilateral
     elsif length == width ||  height == length || width == height
@@ -27,7 +26,7 @@ class Triangle
 class TriangleError < StandardError
   def message
     "Error"
-  end
+  end 
 end
 
 end
